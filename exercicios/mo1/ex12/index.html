@@ -1,0 +1,39 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <hr>
+    <p>Este video está hospedado em meu proprio servidor</p>
+
+    <video src="Mídia/mp4novovolvos602010.mp4" width="560" controls></video>
+    <!--Formaa mais imples de colocar video internos-->
+
+    <p>Outro video hospedado em meu próprio servidor</p>
+    <!--Para os videos ficarem um em cima do outro coloque um paragrafo entre eles-->
+
+    <video width="560" poster="imagens/hq720.jpg" controls> 
+        <source src="Mídia/mp4novovolvos602010.mp4" type="video/mp4">
+        <source src="Mídia/m4vnovovolvos602010.m4v" type="video/m4v">
+        <source src="Mídia/Novo-Volvo-S60-2010.ogv" type="video/ogv">
+        <source src="Mídia/webmnovovolvos602010.webm" type="video/webm">
+        <!--Forma mais complexa e completa de colocar videos internos-->
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+    <h1>Inserindo videos do YouTube</h1> 
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yLOUahp-RIc?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/152971575?h=1fa53e1f63&autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <!--Daqui pra baixo é referente ao link colocado automaticamente abaixo do vídeo e pode ser excluido-->
+<p><a href="https://vimeo.com/152971575">VISUALZINK 2016 REEL</a> from <a href="https://vimeo.com/visualzink">visualzink</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+    
+</body>
+</html>

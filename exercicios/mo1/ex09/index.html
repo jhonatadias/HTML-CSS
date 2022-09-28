@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lstas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <hr>
+    <h2 style="background-color:rgba(146, 29, 136, 0) ;">Listas ordenadas</h2><!-- estilos para esse type 1, A, a, I. i-->
+    <ol type="1" start="1">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir trabalhar</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>dormir</li>
+    </ol>
+
+    <ol type="A" start="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    
+    <ol type="a" start="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir trabalhar</li>
+    </ol>
+
+    <ol type="I" start="1" style="background-color:rgba(0, 0, 255, 0.144)">
+        <li style="background-color:red ;">Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir trabalhar</li>
+    </ol>
+
+    <ol type="i"> <!--o código start serve para determinar o começo da lista-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <h2 style="background-color: rgba(0, 0, 255, 0);">Listas não ordenadas</h2>
+    <ul type="disc"> <!--As opções para esse type são: disc, circle, square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Mantega</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Mantega</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Mantega</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhaas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>clipper</li>
+            <li>visual basic</li>
+            <li>Forten</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="1"> <!--para fazer associação e continuação númerica com a outra lista de cima é necessáro usar o código digo start e alterar o inicio da contagem -->
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ol>
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ol>
+        <li>SNES</li>
+        <ol>
+            <li>Mário</li>
+            <li>Donkey Kong</li>
+        </ol>
+        <li>PlayStation</li>
+        <ol>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos (Listas não ordenadas)</h2>
+    <ol>
+        <li>NES</li>
+           <ul type="square">
+              <li>Mario Bros</li>
+              <ul>
+                <li>Mario Bros 3</li>
+                <li>Mario: lost levels</li>
+              </ul>
+              <li>Ninja Gaiden</li>
+           </ul>
+        <li>SNES</li>
+            <ul type="square">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+
+        <li>Playstation</li>
+            <ul type="square">
+               <li>Final fantasy</li>
+               <li>castlevania</li>
+            </ul>
+    </ol>
+    <h2>Listas de definições</h2> <!--ajudam o buscador do google a achar defições especificas para buscas-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo para um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site </dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação da interatividade de um site</dd>
+    </dl>
+</body>
+</html>

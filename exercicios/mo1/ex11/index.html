@@ -1,0 +1,33 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+   <h1>Imagem dinâmica</h1>
+   <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente almente e diminua o tamanho do seu navegador.</p>
+   
+   <picture>
+
+    <source media="(max-width: 750px)" srcset="Imagens/pequeno.png" type="image/png">
+     <source media="(max-width: 1050px)" srcset="Imagens/media.png" type="image/png"> 
+    <img src="Imagens/grande.png" alt="">
+   </picture>
+    
+   <h1>Reproduzindo Audio</h1>
+   <p>Vamos aprender a reproduzir audios em HTML5</p>
+   <audio src="midia/2010volvos60.mp3" controls autoplay></audio>
+   <!--Forma mais fácil de colocar audio-->
+     
+   <p>Reproduzindo audio em outos formatos</p> <!--Nesse exemplo os outro sformatos de audio são ficticios, todos são mp3-->
+   <audio preload="metadata" source controls loop autoplay> 
+    <source src="midia/2010volvos60.mp3" type="audio/mpeg">
+    <source src="midia/2010volvos60.mp3" type="audio/ogg">
+    <source src="midia/2010volvos60.mp3" type="audio/wav">
+    <p>Infelizmente o seu navegador não consegue reproduzir áudio <a href="midia/2010volvos60.mp3">Clique aqui para baixar o áudio em mp3</a></p>
+   </audio>
+</body>
+</html>
