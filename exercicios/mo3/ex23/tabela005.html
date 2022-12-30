@@ -26,12 +26,33 @@
             border: 1px solid gray;
             padding: 10px;
         }
+        .cnome{
+            background-color: aqua;
+        }
+
+        /**Esta tag "colgroup" permite dar caracteristicas as colunas separando coluna por coluna.**/ 
+        .csexo{
+            background-color: aquamarine;
+        }
+        .cidade{
+            background-color: azure;
+        }
+        .cprof{
+            background-color: bisque;
+        }
     
     </style>
 </head>
 <body>
     <h1>Exercicios de tabela</h1>
     <table>
+        <!--Esta tag "colgroup" permite dar caracteristicas as colunas separando coluna por coluna.-->
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
