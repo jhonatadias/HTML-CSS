@@ -9,16 +9,23 @@
 <body>
     <h1>Exemplo de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="iname">Nome</label>
+        <input type="text" id="iname" autocomplete="on" required>
+    </p>
      <p>
         <label for="iemail">E-mail</label>
         <input type="email" name="email" id="iemail" required autocomplete="email">
      </p>
      <p>
         <label for="itel">Telefone</label>
-        <input type="tel" name="telefone" id="itel" 
-        pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+        <input type="tel" name="tel" id="itel" autocomplete="tel"
+        pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx" required> <!--ATENÇÃO esse código não funciona direito o parentese do ddd tem que ser colocado manualmente assim como o ifem no meio dos numeros-->
+        
+        <!--Estudar mais sobre RegEx (expressoes regulares)-->
      </p>
-     <!--Estudar mais sobre RegEx (expressoes regulares)-->
+     
+     
      <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
