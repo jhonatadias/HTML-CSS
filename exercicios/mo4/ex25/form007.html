@@ -9,8 +9,55 @@
 <body>
     <h1>Exemplo de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-       
-        
+        <p>
+            <label for="iestados">Estados</label>
+            <select name="estado" id="iestados">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goias</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+
+                <option value="MS">Mato grosso do Sul</option>
+                <option value="MG">Minas Gearais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">pernanbuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+
+                <option value="RO">Rondonia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Sant Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="DF">Distrito Federal</option>
+            </select>
+            
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="ilist">
+            <datalist id="ilist"> <!---Esse id tem que ter o nome que está no atributo list do input-->
+                <option value="Pedr">Pedreiro</option>
+                <option value="Arq">Arquiteto</option>
+                <option value="Eng">Engenheiro</option>
+                <option value="Adv">Advogado</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
