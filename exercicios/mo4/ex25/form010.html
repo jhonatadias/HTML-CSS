@@ -10,8 +10,8 @@
     <h1>Exemplo de frmulário</h1>
     <form action="cadastro.php" method="post">
         <p>
-           <label for="iidade">Em que ano você nasceu?</label>
-           <input type="number" name="ano" id="iidade" min="1900" max="2023" oninput="calcidade()">
+           <label for="iano">Em que ano você nasceu?</label>
+           <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcIdade()">
         </p>
            
         <p>
@@ -23,6 +23,11 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
-    <script></script>
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
 </body>
 </html>
