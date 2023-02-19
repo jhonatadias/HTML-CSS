@@ -17,6 +17,10 @@ menu {
     display: none;
 }
 
-article::after{
-    content: Esse artigo foi extraido do site cursemvideo.com;
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo foi extraido do site cursemvideo.com';
 }
