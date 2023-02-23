@@ -22,14 +22,14 @@ header > h1 {
 
  menu > ul {
     list-style-type: none;
- }
+}
 
- menu > ul > li > a {
+menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none ;
     text-align: center ;
-    background-color: rgb(87, 87, 87);
-    color: ;
+    background-color: rgb(184, 14, 14);
+    color:white;
  }
 
