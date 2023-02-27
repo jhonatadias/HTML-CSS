@@ -19,6 +19,7 @@ header > h1 {
     text-align: center;
 }
 
+/*Aqui é a CLASS que nomeia o local (span) do menu burger. Oq importa é oq está depois do ponto que é o nome da CLASS e o ponto significa que é uma class*/
 span.material-symbols-outlined {
     background-color: rgb(48, 48, 48);
     color: white;
@@ -28,6 +29,7 @@ span.material-symbols-outlined {
     cursor: pointer;
 }
 
+/*aqui ele muda de cor ao passar o mouse*/
 span.material-symbols-outlined:hover {
     background-color: white;
     color: black; 
@@ -36,6 +38,7 @@ span.material-symbols-outlined:hover {
  menu {
     display: none  ;
  }
+
 
  menu > ul {
     list-style-type: none;
