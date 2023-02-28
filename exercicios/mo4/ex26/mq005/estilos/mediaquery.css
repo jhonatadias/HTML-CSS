@@ -12,8 +12,13 @@ Grades telas: acima de 1200px */
     span.material-symbols-outlined {
         display: none;
     }
+
+    menu {
+        display: block;
+    }
+    
+     menu > ul > li > a {
+        display: inline-block;
+    }
 }
 
-menu {
-    display: block;
-}
